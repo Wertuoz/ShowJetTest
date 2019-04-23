@@ -8,40 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		25935B0D2268818400426993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25935B0C2268818400426993 /* AppDelegate.swift */; };
-		25935B0F2268818400426993 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25935B0E2268818400426993 /* ViewController.swift */; };
 		25935B122268818400426993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25935B102268818400426993 /* Main.storyboard */; };
 		25935B142268818600426993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25935B132268818600426993 /* Assets.xcassets */; };
 		25935B172268818600426993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25935B152268818600426993 /* LaunchScreen.storyboard */; };
-		25935B1F2268819700426993 /* MaskedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25935B1E2268819700426993 /* MaskedView.swift */; };
-		25935B212268C32B00426993 /* ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25935B202268C32B00426993 /* ViewCell.swift */; };
-		25935B232269040000426993 /* CustomCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25935B222269040000426993 /* CustomCollectionView.swift */; };
-		25935B252269DFD800426993 /* ScrollableContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25935B242269DFD800426993 /* ScrollableContentView.swift */; };
-		25935B272269EB5600426993 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25935B262269EB5600426993 /* MainViewController.swift */; };
-		25935B29226A3DE000426993 /* ViewControllerTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25935B28226A3DE000426993 /* ViewControllerTemp.swift */; };
-		25935B2B226BD84800426993 /* AutoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25935B2A226BD84800426993 /* AutoViewController.swift */; };
-		25935B2D226DFA6000426993 /* ScrollableStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25935B2C226DFA6000426993 /* ScrollableStackView.swift */; };
-		25935B2F226E110100426993 /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25935B2E226E110100426993 /* StackViewController.swift */; };
-		25935B31226E48E300426993 /* AnimationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25935B30226E48E300426993 /* AnimationLayer.swift */; };
+		25935B212268C32B00426993 /* ObliqueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25935B202268C32B00426993 /* ObliqueView.swift */; };
+		25935B2F226E110100426993 /* ObliqueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25935B2E226E110100426993 /* ObliqueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		25935B092268818400426993 /* ShowJetTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowJetTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25935B0C2268818400426993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		25935B0E2268818400426993 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		25935B112268818400426993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25935B132268818600426993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25935B162268818600426993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25935B182268818600426993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		25935B1E2268819700426993 /* MaskedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskedView.swift; sourceTree = "<group>"; };
-		25935B202268C32B00426993 /* ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCell.swift; sourceTree = "<group>"; };
-		25935B222269040000426993 /* CustomCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionView.swift; sourceTree = "<group>"; };
-		25935B242269DFD800426993 /* ScrollableContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableContentView.swift; sourceTree = "<group>"; };
-		25935B262269EB5600426993 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		25935B28226A3DE000426993 /* ViewControllerTemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTemp.swift; sourceTree = "<group>"; };
-		25935B2A226BD84800426993 /* AutoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoViewController.swift; sourceTree = "<group>"; };
-		25935B2C226DFA6000426993 /* ScrollableStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableStackView.swift; sourceTree = "<group>"; };
-		25935B2E226E110100426993 /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
-		25935B30226E48E300426993 /* AnimationLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationLayer.swift; sourceTree = "<group>"; };
+		25935B202268C32B00426993 /* ObliqueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObliqueView.swift; sourceTree = "<group>"; };
+		25935B2E226E110100426993 /* ObliqueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObliqueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,21 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				25935B0C2268818400426993 /* AppDelegate.swift */,
-				25935B0E2268818400426993 /* ViewController.swift */,
 				25935B102268818400426993 /* Main.storyboard */,
 				25935B132268818600426993 /* Assets.xcassets */,
 				25935B152268818600426993 /* LaunchScreen.storyboard */,
 				25935B182268818600426993 /* Info.plist */,
-				25935B1E2268819700426993 /* MaskedView.swift */,
-				25935B202268C32B00426993 /* ViewCell.swift */,
-				25935B30226E48E300426993 /* AnimationLayer.swift */,
-				25935B222269040000426993 /* CustomCollectionView.swift */,
-				25935B262269EB5600426993 /* MainViewController.swift */,
-				25935B28226A3DE000426993 /* ViewControllerTemp.swift */,
-				25935B2A226BD84800426993 /* AutoViewController.swift */,
-				25935B242269DFD800426993 /* ScrollableContentView.swift */,
-				25935B2C226DFA6000426993 /* ScrollableStackView.swift */,
-				25935B2E226E110100426993 /* StackViewController.swift */,
+				25935B202268C32B00426993 /* ObliqueView.swift */,
+				25935B2E226E110100426993 /* ObliqueViewController.swift */,
 			);
 			path = ShowJetTest;
 			sourceTree = "<group>";
@@ -165,17 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25935B29226A3DE000426993 /* ViewControllerTemp.swift in Sources */,
-				25935B2F226E110100426993 /* StackViewController.swift in Sources */,
-				25935B2B226BD84800426993 /* AutoViewController.swift in Sources */,
-				25935B2D226DFA6000426993 /* ScrollableStackView.swift in Sources */,
-				25935B272269EB5600426993 /* MainViewController.swift in Sources */,
-				25935B232269040000426993 /* CustomCollectionView.swift in Sources */,
-				25935B252269DFD800426993 /* ScrollableContentView.swift in Sources */,
-				25935B212268C32B00426993 /* ViewCell.swift in Sources */,
-				25935B31226E48E300426993 /* AnimationLayer.swift in Sources */,
-				25935B1F2268819700426993 /* MaskedView.swift in Sources */,
-				25935B0F2268818400426993 /* ViewController.swift in Sources */,
+				25935B2F226E110100426993 /* ObliqueViewController.swift in Sources */,
+				25935B212268C32B00426993 /* ObliqueView.swift in Sources */,
 				25935B0D2268818400426993 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

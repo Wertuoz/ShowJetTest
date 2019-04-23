@@ -11,25 +11,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main View Controller-->
-        <scene sceneID="Ynv-Fx-V1c">
-            <objects>
-                <viewController id="3hc-Ua-n3u" customClass="MainViewController" customModule="ShowJetTest" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ewR-eB-0QN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="rxf-UJ-pef"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="W9f-V8-Jp0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="236.23188405797106" y="-43.526785714285708"/>
-        </scene>
-        <!--Stack View Controller-->
+        <!--Oblique View Controller-->
         <scene sceneID="2me-sx-NwK">
             <objects>
-                <viewController id="D2h-hy-v0b" customClass="StackViewController" customModule="ShowJetTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="D2h-hy-v0b" customClass="ObliqueViewController" customModule="ShowJetTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZTF-DO-KKo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -152,6 +137,7 @@
                                                 </constraints>
                                             </view>
                                         </subviews>
+                                        <color key="backgroundColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </stackView>
                                 </subviews>
                                 <constraints>
@@ -163,7 +149,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="vdd-y1-ycW" secondAttribute="trailing" id="6eB-Wt-QNH"/>
                             <constraint firstItem="F6H-IZ-VrD" firstAttribute="bottom" secondItem="vdd-y1-ycW" secondAttribute="bottom" id="Hqt-FM-MbK"/>
